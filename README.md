@@ -76,5 +76,5 @@ Một số tính năng có thể ảnh hưởng đến quyền riêng tư ngư�
 ## 💌 Liên hệ
 
 - Tác giả: MinProducer
-- Email: min@yourdomain.com
-- Facebook: fb.com/minproducer
+- Email: admin@minproducer.com
+- Facebook: fb.com/minproducer.me
