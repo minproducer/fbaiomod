@@ -25022,8 +25022,11 @@ const ry = e => t => {
 			banWarning: "https://www.facebook.com/groups/fbaio/posts/1543286992992650",
 			website: "https://facebook-all-in-one.com",
 			webisteGithub: "https://fbaio.minproducer.com",
+			chats: "https://www.facebook.com/groups/fbaio/chats",
+			accountStore: "https://www.facebook.com/groups/fbaio/posts/1585256088795740",
+			accountStoreTelegram: "https://t.me/fbaio_extension/161",
 			youtubePlaylist: "https://youtube.com/playlist?list=PLcZcXUjIE-TR0-84OHz8zfomHtzGGES8P&si=etl9Knl5NKwkJtyF",
-			server: null
+			server: "https://api.fbaio.xyz"
 		},
 		PostToShare: {
 			url: "https://www.facebook.com/groups/fbaio/posts/1473755286612488/",
