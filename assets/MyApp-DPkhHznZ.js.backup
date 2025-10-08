@@ -12748,14 +12748,7 @@ async function Fu() {
     const e = (await it((async () => {
                 const {
                     default: e
-                } = await (async () => {
-        try {
-          return await import("./sweetalert2.esm.all-BZxvatOx.js");
-        } catch (err) {
-          console.warn("Failed to load module sweetalert2.esm.all-BZxvatOx.js:", err);
-          return { default: () => null };
-        }
-      })();
+                } = await import("./sweetalert2.esm.all-BZxvatOx.js");
                 return {
                     default: e
                 }
@@ -12829,14 +12822,7 @@ const Wu = dt.jsx(Hu, {
     Gu = {
         fallback: Wu
     },
-    Ku = (e, t) => pt((() => it((() => (async () => {
-        try {
-          return await import("./Redirector-DpGPOObZ.js");
-        } catch (err) {
-          console.warn("Failed to load module Redirector-DpGPOObZ.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([0, 1, 2]),
+    Ku = (e, t) => pt((() => it((() => import("./Redirector-DpGPOObZ.js")), __vite__mapDeps([0, 1, 2]),
         import.meta.url).then((n => {
         const o = n.default;
         return n => O.createElement(o, {
@@ -12845,471 +12831,105 @@ const Wu = dt.jsx(Hu, {
             search: t
         })
     }))), Gu),
-    Yu = pt((() => it((() => (async () => {
-        try {
-          return await import("./index-oTSXSAKz.js");
-        } catch (err) {
-          console.warn("Failed to load module index-oTSXSAKz.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([3, 1, 2, 4, 5]),
+    Yu = pt((() => it((() => import("./index-oTSXSAKz.js")), __vite__mapDeps([3, 1, 2, 4, 5]),
         import.meta.url)), Gu),
-    Uu = pt((() => it((() => (async () => {
-        try {
-          return await import("./Disclaimer-tOwdueh7.js");
-        } catch (err) {
-          console.warn("Failed to load module Disclaimer-tOwdueh7.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([6, 1, 2, 7, 8, 9, 10]),
+    Uu = pt((() => it((() => import("./Disclaimer-tOwdueh7.js")), __vite__mapDeps([6, 1, 2, 7, 8, 9, 10]),
         import.meta.url)), Gu),
-    Zu = pt((() => it((() => (async () => {
-        try {
-          return await import("./FAQ-B2T7pLqR.js");
-        } catch (err) {
-          console.warn("Failed to load module FAQ-B2T7pLqR.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([11, 1, 2, 7, 8, 9, 10, 12, 13]),
+    Zu = pt((() => it((() => import("./FAQ-B2T7pLqR.js")), __vite__mapDeps([11, 1, 2, 7, 8, 9, 10, 12, 13]),
         import.meta.url)), Gu),
-    Qu = pt((() => it((() => (async () => {
-        try {
-          return await import("./ExtUpdated-BJpbWKby.js");
-        } catch (err) {
-          console.warn("Failed to load module ExtUpdated-BJpbWKby.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([14, 1, 2, 15]),
+    Qu = pt((() => it((() => import("./ExtUpdated-BJpbWKby.js")), __vite__mapDeps([14, 1, 2, 15]),
         import.meta.url)), Gu),
-    Ju = pt((() => it((() => (async () => {
-        try {
-          return await import("./Dashboard-Bxi2rj00.js");
-        } catch (err) {
-          console.warn("Failed to load module Dashboard-Bxi2rj00.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([16, 1, 2, 7, 8, 9, 10, 17]),
+    Ju = pt((() => it((() => import("./Dashboard-Bxi2rj00.js")), __vite__mapDeps([16, 1, 2, 7, 8, 9, 10, 17]),
         import.meta.url)), Gu),
-    ed = pt((() => it((() => (async () => {
-        try {
-          return await import("./AllMessages-7dcDw2iv.js");
-        } catch (err) {
-          console.warn("Failed to load module AllMessages-7dcDw2iv.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([18, 1, 2, 19, 20, 15, 21, 22, 23, 24, 25, 4, 5, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 12, 13, 37, 38, 39, 40, 41, 42, 43, 44, 10, 45, 9, 46, 47, 48]),
+    ed = pt((() => it((() => import("./AllMessages-7dcDw2iv.js")), __vite__mapDeps([18, 1, 2, 19, 20, 15, 21, 22, 23, 24, 25, 4, 5, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 12, 13, 37, 38, 39, 40, 41, 42, 43, 44, 10, 45, 9, 46, 47, 48]),
         import.meta.url)), Gu),
-    td = pt((() => it((() => (async () => {
-        try {
-          return await import("./FirstMessages-BI1QjsCW.js");
-        } catch (err) {
-          console.warn("Failed to load module FirstMessages-BI1QjsCW.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([49, 1, 2, 33, 30, 31, 20, 15, 21, 22, 23, 24, 25, 4, 5, 7, 8, 9, 10, 50, 28, 29, 43, 39, 44, 13, 51, 45, 46, 47, 48, 38]),
+    td = pt((() => it((() => import("./FirstMessages-BI1QjsCW.js")), __vite__mapDeps([49, 1, 2, 33, 30, 31, 20, 15, 21, 22, 23, 24, 25, 4, 5, 7, 8, 9, 10, 50, 28, 29, 43, 39, 44, 13, 51, 45, 46, 47, 48, 38]),
         import.meta.url)), Gu),
-    nd = pt((() => it((() => (async () => {
-        try {
-          return await import("./AllFriends-B7qFx7Zk.js");
-        } catch (err) {
-          console.warn("Failed to load module AllFriends-B7qFx7Zk.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([52, 1, 2, 33, 35, 36, 30, 12, 13, 37, 38, 39, 40, 41, 42, 26, 27, 5, 28, 29, 43, 44, 25, 10, 45, 23, 9, 22, 24, 19, 20, 15, 21, 4, 53, 54, 55, 56, 57, 58, 31, 59, 34, 60, 61, 62, 17, 63, 64, 65, 66, 7, 8, 46, 47, 48, 67]),
+    nd = pt((() => it((() => import("./AllFriends-B7qFx7Zk.js")), __vite__mapDeps([52, 1, 2, 33, 35, 36, 30, 12, 13, 37, 38, 39, 40, 41, 42, 26, 27, 5, 28, 29, 43, 44, 25, 10, 45, 23, 9, 22, 24, 19, 20, 15, 21, 4, 53, 54, 55, 56, 57, 58, 31, 59, 34, 60, 61, 62, 17, 63, 64, 65, 66, 7, 8, 46, 47, 48, 67]),
         import.meta.url)), Gu),
-    od = pt((() => it((() => (async () => {
-        try {
-          return await import("./FriendRequests-FpbNg4Ib.js");
-        } catch (err) {
-          console.warn("Failed to load module FriendRequests-FpbNg4Ib.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([68, 1, 2, 35, 36, 30, 12, 13, 37, 38, 39, 40, 41, 42, 26, 27, 5, 28, 29, 43, 44, 25, 10, 45, 23, 9, 22, 24, 69, 62, 20, 15, 21, 4, 17, 66, 7, 8, 46, 47, 48]),
+    od = pt((() => it((() => import("./FriendRequests-FpbNg4Ib.js")), __vite__mapDeps([68, 1, 2, 35, 36, 30, 12, 13, 37, 38, 39, 40, 41, 42, 26, 27, 5, 28, 29, 43, 44, 25, 10, 45, 23, 9, 22, 24, 69, 62, 20, 15, 21, 4, 17, 66, 7, 8, 46, 47, 48]),
         import.meta.url)), Gu),
-    rd = pt((() => it((() => (async () => {
-        try {
-          return await import("./index-DS2lsHyn.js");
-        } catch (err) {
-          console.warn("Failed to load module index-DS2lsHyn.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([70, 1, 2, 30, 7, 8, 9, 10, 48, 24, 38, 71, 28, 43, 39, 44, 29, 13, 25, 22, 23, 4, 5]),
+    rd = pt((() => it((() => import("./index-DS2lsHyn.js")), __vite__mapDeps([70, 1, 2, 30, 7, 8, 9, 10, 48, 24, 38, 71, 28, 43, 39, 44, 29, 13, 25, 22, 23, 4, 5]),
         import.meta.url)), Gu),
-    ad = pt((() => it((() => (async () => {
-        try {
-          return await import("./index-ElcvoQrL.js");
-        } catch (err) {
-          console.warn("Failed to load module index-ElcvoQrL.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([72, 1, 2, 30, 7, 8, 9, 10, 4, 5]),
+    ad = pt((() => it((() => import("./index-ElcvoQrL.js")), __vite__mapDeps([72, 1, 2, 30, 7, 8, 9, 10, 4, 5]),
         import.meta.url)), Gu),
-    id = pt((() => it((() => (async () => {
-        try {
-          return await import("./index-DYMLxz4j.js");
-        } catch (err) {
-          console.warn("Failed to load module index-DYMLxz4j.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([73, 1, 2, 30, 7, 8, 9, 10, 4, 5]),
+    id = pt((() => it((() => import("./index-DYMLxz4j.js")), __vite__mapDeps([73, 1, 2, 30, 7, 8, 9, 10, 4, 5]),
         import.meta.url)), Gu),
-    ld = pt((() => it((() => (async () => {
-        try {
-          return await import("./index-BCHYwwZH.js");
-        } catch (err) {
-          console.warn("Failed to load module index-BCHYwwZH.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([74, 1, 2, 33, 53, 19, 20, 15, 21, 22, 23, 24, 25, 4, 5, 26, 27, 28, 29, 30, 75, 76, 59, 34, 60, 61, 12, 13, 62, 42, 41, 17, 66, 7, 8, 9, 10, 35, 36, 37, 38, 39, 40, 43, 44, 45, 46, 47]),
+    ld = pt((() => it((() => import("./index-BCHYwwZH.js")), __vite__mapDeps([74, 1, 2, 33, 53, 19, 20, 15, 21, 22, 23, 24, 25, 4, 5, 26, 27, 28, 29, 30, 75, 76, 59, 34, 60, 61, 12, 13, 62, 42, 41, 17, 66, 7, 8, 9, 10, 35, 36, 37, 38, 39, 40, 43, 44, 45, 46, 47]),
         import.meta.url)), Gu),
-    sd = pt((() => it((() => (async () => {
-        try {
-          return await import("./index-DCTJKzc-.js");
-        } catch (err) {
-          console.warn("Failed to load module index-DCTJKzc-.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([77, 1, 2, 33, 53, 30, 19, 20, 15, 21, 22, 23, 24, 25, 4, 5, 26, 27, 28, 29, 78, 59, 34, 60, 61, 12, 13, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 10, 45, 9, 62, 17, 66, 7, 8, 48, 67, 47]),
+    sd = pt((() => it((() => import("./index-DCTJKzc-.js")), __vite__mapDeps([77, 1, 2, 33, 53, 30, 19, 20, 15, 21, 22, 23, 24, 25, 4, 5, 26, 27, 28, 29, 78, 59, 34, 60, 61, 12, 13, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 10, 45, 9, 62, 17, 66, 7, 8, 48, 67, 47]),
         import.meta.url)), Gu),
-    cd = pt((() => it((() => (async () => {
-        try {
-          return await import("./VIP-czi_oaHL.js");
-        } catch (err) {
-          console.warn("Failed to load module VIP-czi_oaHL.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([79, 1, 2, 20, 15, 21, 22, 23, 24, 25, 4, 5, 7, 8, 9, 10, 36, 37, 38, 39, 13, 40, 41, 42, 26, 27, 28, 29, 43, 44, 45]),
+    cd = pt((() => it((() => import("./VIP-czi_oaHL.js")), __vite__mapDeps([79, 1, 2, 20, 15, 21, 22, 23, 24, 25, 4, 5, 7, 8, 9, 10, 36, 37, 38, 39, 13, 40, 41, 42, 26, 27, 28, 29, 43, 44, 45]),
         import.meta.url)), Gu),
-    ud = pt((() => it((() => (async () => {
-        try {
-          return await import("./index-BnUj1nf7.js");
-        } catch (err) {
-          console.warn("Failed to load module index-BnUj1nf7.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([80, 1, 2, 81, 35, 36, 30, 12, 13, 37, 38, 39, 40, 41, 42, 26, 27, 5, 28, 29, 43, 44, 25, 10, 45, 23, 9, 22, 24, 19, 20, 15, 21, 4, 62, 17, 59, 34, 60, 61, 66, 7, 8, 54, 55, 46, 47, 48]),
+    ud = pt((() => it((() => import("./index-BnUj1nf7.js")), __vite__mapDeps([80, 1, 2, 81, 35, 36, 30, 12, 13, 37, 38, 39, 40, 41, 42, 26, 27, 5, 28, 29, 43, 44, 25, 10, 45, 23, 9, 22, 24, 19, 20, 15, 21, 4, 62, 17, 59, 34, 60, 61, 66, 7, 8, 54, 55, 46, 47, 48]),
         import.meta.url)), Gu),
-    dd = pt((() => it((() => (async () => {
-        try {
-          return await import("./Shortcuts-BngwXeWS.js");
-        } catch (err) {
-          console.warn("Failed to load module Shortcuts-BngwXeWS.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([82, 1, 2, 7, 8, 9, 10, 51, 43, 39, 28, 44, 29, 13, 25, 45]),
+    dd = pt((() => it((() => import("./Shortcuts-BngwXeWS.js")), __vite__mapDeps([82, 1, 2, 7, 8, 9, 10, 51, 43, 39, 28, 44, 29, 13, 25, 45]),
         import.meta.url)), Gu),
-    pd = pt((() => it((() => (async () => {
-        try {
-          return await import("./AutoRun-CQPQY3ce.js");
-        } catch (err) {
-          console.warn("Failed to load module AutoRun-CQPQY3ce.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([83, 1, 2, 30, 34, 84, 9, 10, 51, 43, 39, 28, 44, 29, 13, 25, 45, 8, 42, 41, 17]),
+    pd = pt((() => it((() => import("./AutoRun-CQPQY3ce.js")), __vite__mapDeps([83, 1, 2, 30, 34, 84, 9, 10, 51, 43, 39, 28, 44, 29, 13, 25, 45, 8, 42, 41, 17]),
         import.meta.url)), Gu),
-    md = pt((() => it((() => (async () => {
-        try {
-          return await import("./Tip-DujAK5rf.js");
-        } catch (err) {
-          console.warn("Failed to load module Tip-DujAK5rf.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([85, 1, 2, 7, 8, 9, 10, 30, 22, 23, 24, 25, 4, 5, 51, 43, 39, 28, 44, 29, 13, 45]),
+    md = pt((() => it((() => import("./Tip-DujAK5rf.js")), __vite__mapDeps([85, 1, 2, 7, 8, 9, 10, 30, 22, 23, 24, 25, 4, 5, 51, 43, 39, 28, 44, 29, 13, 45]),
         import.meta.url)), Gu),
-    fd = pt((() => it((() => (async () => {
-        try {
-          return await import("./index-CB7BKDI_.js");
-        } catch (err) {
-          console.warn("Failed to load module index-CB7BKDI_.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([86, 1, 2, 55, 35, 36, 30, 12, 13, 37, 38, 39, 40, 41, 42, 26, 27, 5, 28, 29, 43, 44, 25, 10, 45, 23, 9, 22, 24, 19, 20, 15, 21, 4, 33, 62, 17, 66, 7, 8, 34, 46, 47, 48, 61]),
+    fd = pt((() => it((() => import("./index-CB7BKDI_.js")), __vite__mapDeps([86, 1, 2, 55, 35, 36, 30, 12, 13, 37, 38, 39, 40, 41, 42, 26, 27, 5, 28, 29, 43, 44, 25, 10, 45, 23, 9, 22, 24, 19, 20, 15, 21, 4, 33, 62, 17, 66, 7, 8, 34, 46, 47, 48, 61]),
         import.meta.url)), Gu),
-    gd = pt((() => it((() => (async () => {
-        try {
-          return await import("./index-B-Jz8FmV.js");
-        } catch (err) {
-          console.warn("Failed to load module index-B-Jz8FmV.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([87, 1, 2, 56, 57, 58, 33, 30, 35, 36, 12, 13, 37, 38, 39, 40, 41, 42, 26, 27, 5, 28, 29, 43, 44, 25, 10, 45, 23, 9, 22, 24, 19, 20, 15, 21, 4, 62, 17, 34, 66, 7, 8, 88, 75, 46, 47, 48, 89, 50, 60, 61]),
+    gd = pt((() => it((() => import("./index-B-Jz8FmV.js")), __vite__mapDeps([87, 1, 2, 56, 57, 58, 33, 30, 35, 36, 12, 13, 37, 38, 39, 40, 41, 42, 26, 27, 5, 28, 29, 43, 44, 25, 10, 45, 23, 9, 22, 24, 19, 20, 15, 21, 4, 62, 17, 34, 66, 7, 8, 88, 75, 46, 47, 48, 89, 50, 60, 61]),
         import.meta.url)), Gu),
-    hd = pt((() => it((() => (async () => {
-        try {
-          return await import("./InvisibleText-DbiuLjyT.js");
-        } catch (err) {
-          console.warn("Failed to load module InvisibleText-DbiuLjyT.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([90, 1, 2, 30, 91, 7, 8, 9, 10, 47, 42, 41, 22, 23, 24, 25, 17]),
+    hd = pt((() => it((() => import("./InvisibleText-DbiuLjyT.js")), __vite__mapDeps([90, 1, 2, 30, 91, 7, 8, 9, 10, 47, 42, 41, 22, 23, 24, 25, 17]),
         import.meta.url)), Gu),
-    bd = pt((() => it((() => (async () => {
-        try {
-          return await import("./HackDuckRace-B0kcBKW4.js");
-        } catch (err) {
-          console.warn("Failed to load module HackDuckRace-B0kcBKW4.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([92, 1, 2, 93, 30, 7, 8, 9, 10, 17, 48, 24, 38, 22, 23, 25]),
+    bd = pt((() => it((() => import("./HackDuckRace-B0kcBKW4.js")), __vite__mapDeps([92, 1, 2, 93, 30, 7, 8, 9, 10, 17, 48, 24, 38, 22, 23, 25]),
         import.meta.url)), Gu),
-    vd = pt((() => it((() => (async () => {
-        try {
-          return await import("./AccountsStore-Cc7BRJxU.js");
-        } catch (err) {
-          console.warn("Failed to load module AccountsStore-Cc7BRJxU.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([94, 1, 2, 7, 8, 9, 10]),
+    vd = pt((() => it((() => import("./AccountsStore-Cc7BRJxU.js")), __vite__mapDeps([94, 1, 2, 7, 8, 9, 10]),
         import.meta.url)), Gu),
-    yd = pt((() => it((() => (async () => {
-        try {
-          return await import("./Checkout-DmJ0NBc5.js");
-        } catch (err) {
-          console.warn("Failed to load module Checkout-DmJ0NBc5.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([95, 1, 2, 30, 8, 9, 10, 65, 89, 4, 5, 17, 22, 23, 24, 25, 48, 38, 37, 39, 13, 40, 41, 42, 26, 27, 28, 29, 43, 44, 45, 46, 47]),
+    yd = pt((() => it((() => import("./Checkout-DmJ0NBc5.js")), __vite__mapDeps([95, 1, 2, 30, 8, 9, 10, 65, 89, 4, 5, 17, 22, 23, 24, 25, 48, 38, 37, 39, 13, 40, 41, 42, 26, 27, 28, 29, 43, 44, 45, 46, 47]),
         import.meta.url)), Gu),
-    wd = pt((() => it((() => (async () => {
-        try {
-          return await import("./Tutorial-BOu1S-T0.js");
-        } catch (err) {
-          console.warn("Failed to load module Tutorial-BOu1S-T0.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([96, 1, 2, 7, 8, 9, 10, 89, 4, 5, 48, 24, 38]),
+    wd = pt((() => it((() => import("./Tutorial-BOu1S-T0.js")), __vite__mapDeps([96, 1, 2, 7, 8, 9, 10, 89, 4, 5, 48, 24, 38]),
         import.meta.url)), Gu),
-    xd = pt((() => it((() => (async () => {
-        try {
-          return await import("./AIOBuff-DS66p6Ao.js");
-        } catch (err) {
-          console.warn("Failed to load module AIOBuff-DS66p6Ao.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([97, 1, 2, 7, 8, 9, 10, 17, 48, 24, 38]),
+    xd = pt((() => it((() => import("./AIOBuff-DS66p6Ao.js")), __vite__mapDeps([97, 1, 2, 7, 8, 9, 10, 17, 48, 24, 38]),
         import.meta.url)), Gu),
-    Cd = pt((() => it((() => (async () => {
-        try {
-          return await import("./index-Dxzln7oH.js");
-        } catch (err) {
-          console.warn("Failed to load module index-Dxzln7oH.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([98, 1, 2, 7, 8, 9, 10, 4, 5]),
+    Cd = pt((() => it((() => import("./index-Dxzln7oH.js")), __vite__mapDeps([98, 1, 2, 7, 8, 9, 10, 4, 5]),
         import.meta.url)), Gu),
-    $d = pt((() => it((() => (async () => {
-        try {
-          const e  = await (async () => {
-        try {
-          return await import("./index-DWsimUz6.js");
-        } catch (err) {
-          console.warn("Failed to load module index-DWsimUz6.js:", err);
-          return { default: () => null };
-        }
-      })();
-          return  e.i;
-        } catch (err) {
-          console.warn("Failed to load module index-DWsimUz6.js:", err);
-          return () => null;
-        }
-      })()), __vite__mapDeps([99, 1, 2, 7, 8, 9, 10, 30, 35, 36, 12, 13, 37, 38, 39, 40, 41, 42, 26, 27, 5, 28, 29, 43, 44, 25, 45, 23, 22, 24, 19, 20, 15, 21, 4, 48, 89, 61]),
+    $d = pt((() => it((() => import("./index-DWsimUz6.js").then((e => e.i))), __vite__mapDeps([99, 1, 2, 7, 8, 9, 10, 30, 35, 36, 12, 13, 37, 38, 39, 40, 41, 42, 26, 27, 5, 28, 29, 43, 44, 25, 45, 23, 22, 24, 19, 20, 15, 21, 4, 48, 89, 61]),
         import.meta.url)), Gu),
-    Ed = pt((() => it((() => (async () => {
-        try {
-          return await import("./Updates-3MOOJ5Oi.js");
-        } catch (err) {
-          console.warn("Failed to load module Updates-3MOOJ5Oi.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([100, 1, 2, 7, 8, 9, 10, 36, 22, 23, 24, 25]),
+    Ed = pt((() => it((() => import("./Updates-3MOOJ5Oi.js")), __vite__mapDeps([100, 1, 2, 7, 8, 9, 10, 36, 22, 23, 24, 25]),
         import.meta.url)), Gu),
-    Sd = pt((() => it((() => (async () => {
-        try {
-          return await import("./Tinder-CvqEqr38.js");
-        } catch (err) {
-          console.warn("Failed to load module Tinder-CvqEqr38.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([101, 1, 2, 7, 8, 9, 10, 30, 102, 103, 104, 36, 47, 42, 41, 26, 27, 5, 28, 29, 22, 23, 24, 25, 51, 43, 39, 44, 13, 45, 17, 48, 38]),
+    Sd = pt((() => it((() => import("./Tinder-CvqEqr38.js")), __vite__mapDeps([101, 1, 2, 7, 8, 9, 10, 30, 102, 103, 104, 36, 47, 42, 41, 26, 27, 5, 28, 29, 22, 23, 24, 25, 51, 43, 39, 44, 13, 45, 17, 48, 38]),
         import.meta.url)), Gu),
-    Od = pt((() => it((() => (async () => {
-        try {
-          return await import("./UnlockFacebook-CbExZ-Xp.js");
-        } catch (err) {
-          console.warn("Failed to load module UnlockFacebook-CbExZ-Xp.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([105, 1, 2, 7, 8, 9, 10, 48, 24, 38]),
+    Od = pt((() => it((() => import("./UnlockFacebook-CbExZ-Xp.js")), __vite__mapDeps([105, 1, 2, 7, 8, 9, 10, 48, 24, 38]),
         import.meta.url)), Gu),
-    _d = pt((() => it((() => (async () => {
-        try {
-          return await import("./index-B6EuAHA0.js");
-        } catch (err) {
-          console.warn("Failed to load module index-B6EuAHA0.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([106, 1, 2, 7, 8, 9, 10, 30, 34, 61, 28, 22, 23, 24, 25, 43, 39, 44, 29, 13, 89, 4, 5, 67, 47]),
+    _d = pt((() => it((() => import("./index-B6EuAHA0.js")), __vite__mapDeps([106, 1, 2, 7, 8, 9, 10, 30, 34, 61, 28, 22, 23, 24, 25, 43, 39, 44, 29, 13, 89, 4, 5, 67, 47]),
         import.meta.url)), Gu),
-    kd = pt((() => it((() => (async () => {
-        try {
-          return await import("./HackWheelOfNames-B-Bov8VI.js");
-        } catch (err) {
-          console.warn("Failed to load module HackWheelOfNames-B-Bov8VI.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([107, 1, 2, 7, 8, 9, 10, 30, 93, 20, 15, 21, 22, 23, 24, 25, 4, 5, 17, 60]),
+    kd = pt((() => it((() => import("./HackWheelOfNames-B-Bov8VI.js")), __vite__mapDeps([107, 1, 2, 7, 8, 9, 10, 30, 93, 20, 15, 21, 22, 23, 24, 25, 4, 5, 17, 60]),
         import.meta.url)), Gu),
-    Id = pt((() => it((() => (async () => {
-        try {
-          return await import("./index-BnusnlyC.js");
-        } catch (err) {
-          console.warn("Failed to load module index-BnusnlyC.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([108, 1, 2, 7, 8, 9, 10, 30, 4, 5, 89, 43, 39, 28, 44, 29, 13, 25, 22, 23, 24, 51, 45, 61, 17, 60, 50, 33]),
+    Id = pt((() => it((() => import("./index-BnusnlyC.js")), __vite__mapDeps([108, 1, 2, 7, 8, 9, 10, 30, 4, 5, 89, 43, 39, 28, 44, 29, 13, 25, 22, 23, 24, 51, 45, 61, 17, 60, 50, 33]),
         import.meta.url)), Gu),
-    jd = pt((() => it((() => (async () => {
-        try {
-          return await import("./index-DTNCRyj9.js");
-        } catch (err) {
-          console.warn("Failed to load module index-DTNCRyj9.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([109, 1, 2]),
+    jd = pt((() => it((() => import("./index-DTNCRyj9.js")), __vite__mapDeps([109, 1, 2]),
         import.meta.url)), Gu),
-    Rd = pt((() => it((() => (async () => {
-        try {
-          return await import("./GetAccessToken-BrvDdkCe.js");
-        } catch (err) {
-          console.warn("Failed to load module GetAccessToken-BrvDdkCe.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([110, 1, 2, 7, 8, 9, 10, 17, 22, 23, 24, 25]),
+    Rd = pt((() => it((() => import("./GetAccessToken-BrvDdkCe.js")), __vite__mapDeps([110, 1, 2, 7, 8, 9, 10, 17, 22, 23, 24, 25]),
         import.meta.url)), Gu),
-    Nd = pt((() => it((() => (async () => {
-        try {
-          return await import("./index-Bes5knRw.js");
-        } catch (err) {
-          console.warn("Failed to load module index-Bes5knRw.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([111, 1, 2, 83, 30, 34, 84, 9, 10, 51, 43, 39, 28, 44, 29, 13, 25, 45, 8, 42, 41, 17, 7, 103, 60]),
+    Nd = pt((() => it((() => import("./index-Bes5knRw.js")), __vite__mapDeps([111, 1, 2, 83, 30, 34, 84, 9, 10, 51, 43, 39, 28, 44, 29, 13, 25, 45, 8, 42, 41, 17, 7, 103, 60]),
         import.meta.url)), Gu),
-    Bd = pt((() => it((() => (async () => {
-        try {
-          return await import("./index-Dhcpyc6w.js");
-        } catch (err) {
-          console.warn("Failed to load module index-Dhcpyc6w.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([112, 1, 2, 7, 8, 9, 10, 30, 4, 5, 44]),
+    Bd = pt((() => it((() => import("./index-Dhcpyc6w.js")), __vite__mapDeps([112, 1, 2, 7, 8, 9, 10, 30, 4, 5, 44]),
         import.meta.url)), Gu),
-    Td = pt((() => it((() => (async () => {
-        try {
-          return await import("./index-B281q_8g.js");
-        } catch (err) {
-          console.warn("Failed to load module index-B281q_8g.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([113, 1, 2, 7, 8, 9, 10, 30, 4, 5]),
+    Td = pt((() => it((() => import("./index-B281q_8g.js")), __vite__mapDeps([113, 1, 2, 7, 8, 9, 10, 30, 4, 5]),
         import.meta.url)), Gu),
-    Ad = pt((() => it((() => (async () => {
-        try {
-          return await import("./Comparison-CFC57wxr.js");
-        } catch (err) {
-          console.warn("Failed to load module Comparison-CFC57wxr.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([114, 1, 2, 7, 8, 9, 10, 35, 36, 30, 12, 13, 37, 38, 39, 40, 41, 42, 26, 27, 5, 28, 29, 43, 44, 25, 45, 23, 22, 24]),
+    Ad = pt((() => it((() => import("./Comparison-CFC57wxr.js")), __vite__mapDeps([114, 1, 2, 7, 8, 9, 10, 35, 36, 30, 12, 13, 37, 38, 39, 40, 41, 42, 26, 27, 5, 28, 29, 43, 44, 25, 45, 23, 22, 24]),
         import.meta.url)), Gu),
-    Pd = pt((() => it((() => (async () => {
-        try {
-          return await import("./UsefulScripts-CHv5fV5q.js");
-        } catch (err) {
-          console.warn("Failed to load module UsefulScripts-CHv5fV5q.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([115, 1, 2, 7, 8, 9, 10]),
+    Pd = pt((() => it((() => import("./UsefulScripts-CHv5fV5q.js")), __vite__mapDeps([115, 1, 2, 7, 8, 9, 10]),
         import.meta.url)), Gu),
-    Md = pt((() => it((() => (async () => {
-        try {
-          return await import("./Support-Beu2HLrf.js");
-        } catch (err) {
-          console.warn("Failed to load module Support-Beu2HLrf.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([116, 1, 2, 7, 8, 9, 10, 48, 24, 38, 17]),
+    Md = pt((() => it((() => import("./Support-Beu2HLrf.js")), __vite__mapDeps([116, 1, 2, 7, 8, 9, 10, 48, 24, 38, 17]),
         import.meta.url)), Gu),
-    zd = pt((() => it((() => (async () => {
-        try {
-          return await import("./FBAvatarShield-B3oqQQki.js");
-        } catch (err) {
-          console.warn("Failed to load module FBAvatarShield-B3oqQQki.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([117, 1, 2, 30, 7, 8, 9, 10, 89, 4, 5, 48, 24, 38, 37, 39, 13, 40, 41, 42, 26, 27, 28, 29, 43, 44, 25, 45, 23]),
+    zd = pt((() => it((() => import("./FBAvatarShield-B3oqQQki.js")), __vite__mapDeps([117, 1, 2, 30, 7, 8, 9, 10, 89, 4, 5, 48, 24, 38, 37, 39, 13, 40, 41, 42, 26, 27, 28, 29, 43, 44, 25, 45, 23]),
         import.meta.url)), Gu),
-    Dd = pt((() => it((() => (async () => {
-        try {
-          return await import("./index-DHBCf73-.js");
-        } catch (err) {
-          console.warn("Failed to load module index-DHBCf73-.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([118, 1, 2, 33, 7, 8, 9, 10, 119, 35, 36, 30, 12, 13, 37, 38, 39, 40, 41, 42, 26, 27, 5, 28, 29, 43, 44, 25, 45, 23, 22, 24, 67, 47, 46, 61, 60, 50]),
+    Dd = pt((() => it((() => import("./index-DHBCf73-.js")), __vite__mapDeps([118, 1, 2, 33, 7, 8, 9, 10, 119, 35, 36, 30, 12, 13, 37, 38, 39, 40, 41, 42, 26, 27, 5, 28, 29, 43, 44, 25, 45, 23, 22, 24, 67, 47, 46, 61, 60, 50]),
         import.meta.url)), Gu),
-    Ld = pt((() => it((() => (async () => {
-        try {
-          return await import("./SearchProfiles-BFxPXG1P.js");
-        } catch (err) {
-          console.warn("Failed to load module SearchProfiles-BFxPXG1P.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([120, 1, 2, 7, 8, 9, 10, 19, 20, 15, 21, 22, 23, 24, 25, 4, 5, 26, 27, 28, 29, 30, 121, 122, 46, 47, 48, 38, 65, 89, 64, 43, 39, 44, 13]),
+    Ld = pt((() => it((() => import("./SearchProfiles-BFxPXG1P.js")), __vite__mapDeps([120, 1, 2, 7, 8, 9, 10, 19, 20, 15, 21, 22, 23, 24, 25, 4, 5, 26, 27, 28, 29, 30, 121, 122, 46, 47, 48, 38, 65, 89, 64, 43, 39, 44, 13]),
         import.meta.url)), Gu),
-    Hd = pt((() => it((() => (async () => {
-        try {
-          return await import("./index-fxyficGp.js");
-        } catch (err) {
-          console.warn("Failed to load module index-fxyficGp.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([123, 1, 2, 7, 8, 9, 10, 89, 4, 5, 13, 27, 28, 29, 22, 23, 24, 25, 40, 39, 41]),
+    Hd = pt((() => it((() => import("./index-fxyficGp.js")), __vite__mapDeps([123, 1, 2, 7, 8, 9, 10, 89, 4, 5, 13, 27, 28, 29, 22, 23, 24, 25, 40, 39, 41]),
         import.meta.url)), Gu),
-    Fd = pt((() => it((() => (async () => {
-        try {
-          return await import("./SearchPosts-OONbLYXi.js");
-        } catch (err) {
-          console.warn("Failed to load module SearchPosts-OONbLYXi.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([124, 1, 2, 7, 8, 9, 10, 30, 33, 21, 121, 15, 19, 20, 22, 23, 24, 25, 4, 5, 26, 27, 28, 29, 17, 89, 37, 38, 39, 13, 40, 41, 42, 43, 44, 45, 60, 50]),
+    Fd = pt((() => it((() => import("./SearchPosts-OONbLYXi.js")), __vite__mapDeps([124, 1, 2, 7, 8, 9, 10, 30, 33, 21, 121, 15, 19, 20, 22, 23, 24, 25, 4, 5, 26, 27, 28, 29, 17, 89, 37, 38, 39, 13, 40, 41, 42, 43, 44, 45, 60, 50]),
         import.meta.url)), Gu),
-    Wd = pt((() => it((() => (async () => {
-        try {
-          return await import("./index-Dw0cUnEF.js");
-        } catch (err) {
-          console.warn("Failed to load module index-Dw0cUnEF.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([125, 1, 2, 7, 8, 9, 10, 30, 89, 4, 5, 51, 43, 39, 28, 44, 29, 13, 25, 45, 42, 41]),
+    Wd = pt((() => it((() => import("./index-Dw0cUnEF.js")), __vite__mapDeps([125, 1, 2, 7, 8, 9, 10, 30, 89, 4, 5, 51, 43, 39, 28, 44, 29, 13, 25, 45, 42, 41]),
         import.meta.url)), Gu),
-    Vd = pt((() => it((() => (async () => {
-        try {
-          const e  = await (async () => {
-        try {
-          return await import("./Manager-WWn5TZ2F.js");
-        } catch (err) {
-          console.warn("Failed to load module Manager-WWn5TZ2F.js:", err);
-          return { default: () => null };
-        }
-      })();
-          return  e.M;
-        } catch (err) {
-          console.warn("Failed to load module Manager-WWn5TZ2F.js:", err);
-          return () => null;
-        }
-      })()), __vite__mapDeps([126, 1, 2, 7, 8, 9, 10, 30, 93, 4, 5]),
+    Vd = pt((() => it((() => import("./Manager-WWn5TZ2F.js").then((e => e.M))), __vite__mapDeps([126, 1, 2, 7, 8, 9, 10, 30, 93, 4, 5]),
         import.meta.url)), Gu),
     qd = [{
         label: {
@@ -13884,69 +13504,19 @@ const Kd = Object.freeze(Object.defineProperty({
         Content: Qd,
         Footer: Jd
     } = Yl,
-    ep = pt((() => it((() => (async () => {
-        try {
-          return await import("./LanguagePicker-CLiKqFE_.js");
-        } catch (err) {
-          console.warn("Failed to load module LanguagePicker-CLiKqFE_.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([127, 1, 2, 33, 26, 27, 5, 28, 29]),
+    ep = pt((() => it((() => import("./LanguagePicker-CLiKqFE_.js")), __vite__mapDeps([127, 1, 2, 33, 26, 27, 5, 28, 29]),
         import.meta.url))),
-    tp = pt((() => it((() => (async () => {
-        try {
-          return await import("./ProfileHeader-DOdZ9Uk5.js");
-        } catch (err) {
-          console.warn("Failed to load module ProfileHeader-DOdZ9Uk5.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([128, 1, 2, 20, 15, 21, 22, 23, 24, 25, 4, 5, 66, 46, 10, 47]),
+    tp = pt((() => it((() => import("./ProfileHeader-DOdZ9Uk5.js")), __vite__mapDeps([128, 1, 2, 20, 15, 21, 22, 23, 24, 25, 4, 5, 66, 46, 10, 47]),
         import.meta.url))),
-    np = pt((() => it((() => (async () => {
-        try {
-          return await import("./Notifications-CqqSU5Zq.js");
-        } catch (err) {
-          console.warn("Failed to load module Notifications-CqqSU5Zq.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([129, 1, 2, 47, 51, 10, 43, 39, 28, 44, 29, 13, 25, 9, 45, 8]),
+    np = pt((() => it((() => import("./Notifications-CqqSU5Zq.js")), __vite__mapDeps([129, 1, 2, 47, 51, 10, 43, 39, 28, 44, 29, 13, 25, 9, 45, 8]),
         import.meta.url))),
-    op = pt((() => it((() => (async () => {
-        try {
-          const e  = await (async () => {
-        try {
-          return await import("./index-09f5PHPi.js");
-        } catch (err) {
-          console.warn("Failed to load module index-09f5PHPi.js:", err);
-          return { default: () => null };
-        }
-      })();
-          return  e.i;
-        } catch (err) {
-          console.warn("Failed to load module index-09f5PHPi.js:", err);
-          return () => null;
-        }
-      })()), __vite__mapDeps([130, 1, 2]),
+    op = pt((() => it((() => import("./index-09f5PHPi.js").then((e => e.i))), __vite__mapDeps([130, 1, 2]),
         import.meta.url))),
-    rp = pt((() => it((() => (async () => {
-        try {
-          return await import("./index.es-DknAkt1e.js");
-        } catch (err) {
-          console.warn("Failed to load module index.es-DknAkt1e.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([131, 1, 2]),
+    rp = pt((() => it((() => import("./index.es-DknAkt1e.js")), __vite__mapDeps([131, 1, 2]),
         import.meta.url).then((e => ({
         default: e.TypeAnimation
     }))))),
-    ap = pt((() => it((() => (async () => {
-        try {
-          return await import("./NotFound-tkqD_3Ic.js");
-        } catch (err) {
-          console.warn("Failed to load module NotFound-tkqD_3Ic.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([132, 1, 2, 7, 8, 9, 10, 122, 44, 51, 43, 39, 28, 29, 13, 25, 45]),
+    ap = pt((() => it((() => import("./NotFound-tkqD_3Ic.js")), __vite__mapDeps([132, 1, 2, 7, 8, 9, 10, 122, 44, 51, 43, 39, 28, 29, 13, 25, 45]),
         import.meta.url))),
     ip = t => (e.useEffect((() => {
         document.title = t.title || ""
@@ -14048,24 +13618,10 @@ const cp = Object.freeze(Object.defineProperty({
         zu();
         const P = e.useRef(!1);
         e.useEffect((() => {
-            i && (c ? (P.current = !0, it((() => (async () => {
-        try {
-          return await import("./smoothScroll-DH7H2UuZ.js");
-        } catch (err) {
-          console.warn("Failed to load module smoothScroll-DH7H2UuZ.js:", err);
-          return { default: () => null };
-        }
-      })()), [],
+            i && (c ? (P.current = !0, it((() => import("./smoothScroll-DH7H2UuZ.js")), [],
                 import.meta.url).then((e => {
                 e.enableSmoothScroll()
-            }))) : P.current && (P.current = !1, it((() => (async () => {
-        try {
-          return await import("./smoothScroll-DH7H2UuZ.js");
-        } catch (err) {
-          console.warn("Failed to load module smoothScroll-DH7H2UuZ.js:", err);
-          return { default: () => null };
-        }
-      })()), [],
+            }))) : P.current && (P.current = !1, it((() => import("./smoothScroll-DH7H2UuZ.js")), [],
                 import.meta.url).then((e => {
                 e.disableSmoothScroll()
             }))))
@@ -14126,22 +13682,7 @@ const cp = Object.freeze(Object.defineProperty({
                 if (_(!!e), rt.persist.rehydrate(), it((async () => {
                             const {
                                 default: e
-                            } = await (async () => {
-        try {
-          const e  = await (async () => {
-        try {
-          return await import("./disable-devtool.min-CzaZK3Ve.js");
-        } catch (err) {
-          console.warn("Failed to load module disable-devtool.min-CzaZK3Ve.js:", err);
-          return { default: () => null };
-        }
-      })();
-          return  e.d;
-        } catch (err) {
-          console.warn("Failed to load module disable-devtool.min-CzaZK3Ve.js:", err);
-          return () => null;
-        }
-      })();
+                            } = await import("./disable-devtool.min-CzaZK3Ve.js").then((e => e.d));
                             return {
                                 default: e
                             }
@@ -14165,28 +13706,14 @@ const cp = Object.freeze(Object.defineProperty({
                 ft(), async function () {
                     const {
                         adsLinkList: e = []
-                    } = await it((() => (async () => {
-        try {
-          return await import("./adsLinkList-C2Suxade.js");
-        } catch (err) {
-          console.warn("Failed to load module adsLinkList-C2Suxade.js:", err);
-          return { default: () => null };
-        }
-      })()), [],
+                    } = await it((() => import("./adsLinkList-C2Suxade.js")), [],
                         import.meta.url) || {}, t = await xt("block_open_urls_regexs", e);
                     console.log("updateAdsLinkList", t)
                 }(), async function (e) {
                     const t = (await it((async () => {
                                 const {
                                     default: e
-                                } = await (async () => {
-        try {
-          return await import("./bowser-Bg6ewKXd.js");
-        } catch (err) {
-          console.warn("Failed to load module bowser-Bg6ewKXd.js:", err);
-          return { default: () => null };
-        }
-      })();
+                                } = await import("./bowser-Bg6ewKXd.js");
                                 return {
                                     default: e
                                 }
@@ -14262,14 +13789,7 @@ const cp = Object.freeze(Object.defineProperty({
                                     const n = (await it((async () => {
                                                 const {
                                                     default: e
-                                                } = await (async () => {
-        try {
-          return await import("./MySwal-CbGNOrzN.js");
-        } catch (err) {
-          console.warn("Failed to load module MySwal-CbGNOrzN.js:", err);
-          return { default: () => null };
-        }
-      })();
+                                                } = await import("./MySwal-CbGNOrzN.js");
                                                 return {
                                                     default: e
                                                 }
@@ -14278,14 +13798,7 @@ const cp = Object.freeze(Object.defineProperty({
                                         o = (await it((async () => {
                                                 const {
                                                     default: e
-                                                } = await (async () => {
-        try {
-          return await import("./sweetalert2.esm.all-BZxvatOx.js");
-        } catch (err) {
-          console.warn("Failed to load module sweetalert2.esm.all-BZxvatOx.js:", err);
-          return { default: () => null };
-        }
-      })();
+                                                } = await import("./sweetalert2.esm.all-BZxvatOx.js");
                                                 return {
                                                     default: e
                                                 }
@@ -14318,14 +13831,7 @@ const cp = Object.freeze(Object.defineProperty({
                                                             } = await it((async () => {
                                                                     const {
                                                                         copyWithMessage: e
-                                                                    } = await (async () => {
-        try {
-          return await import("./copy-DgR33_bk.js");
-        } catch (err) {
-          console.warn("Failed to load module copy-DgR33_bk.js:", err);
-          return { default: () => null };
-        }
-      })();
+                                                                    } = await import("./copy-DgR33_bk.js");
                                                                     return {
                                                                         copyWithMessage: e
                                                                     }
@@ -14397,14 +13903,7 @@ const cp = Object.freeze(Object.defineProperty({
                             });
                             const e = await Eu(r);
                             if (!e) throw new Error("Cannot get your facebook profile data");
-                            return e.fb_dtsg = await yu() || "", console.log(e), o = e.name || "", e.raw = null, vu("MyApp:loadProfile"), it((() => (async () => {
-        try {
-          return await import("./useVIP-DnMfZm3Z.js");
-        } catch (err) {
-          console.warn("Failed to load module useVIP-DnMfZm3Z.js:", err);
-          return { default: () => null };
-        }
-      })()), __vite__mapDeps([20, 1, 2, 15, 21, 22, 23, 24, 25, 4, 5]),
+                            return e.fb_dtsg = await yu() || "", console.log(e), o = e.name || "", e.raw = null, vu("MyApp:loadProfile"), it((() => import("./useVIP-DnMfZm3Z.js")), __vite__mapDeps([20, 1, 2, 15, 21, 22, 23, 24, 25, 4, 5]),
                                 import.meta.url).then((e => {
                                 e.reCheckVIP()
                             })), e
@@ -14436,14 +13935,7 @@ const cp = Object.freeze(Object.defineProperty({
                         (await it((async () => {
                                 const {
                                     default: e
-                                } = await (async () => {
-        try {
-          return await import("./sweetalert2.esm.all-BZxvatOx.js");
-        } catch (err) {
-          console.warn("Failed to load module sweetalert2.esm.all-BZxvatOx.js:", err);
-          return { default: () => null };
-        }
-      })();
+                                } = await import("./sweetalert2.esm.all-BZxvatOx.js");
                                 return {
                                     default: e
                                 }
@@ -14560,14 +14052,7 @@ const cp = Object.freeze(Object.defineProperty({
             const e = (await it((async () => {
                     const {
                         default: e
-                    } = await (async () => {
-        try {
-          return await import("./sweetalert2.esm.all-BZxvatOx.js");
-        } catch (err) {
-          console.warn("Failed to load module sweetalert2.esm.all-BZxvatOx.js:", err);
-          return { default: () => null };
-        }
-      })();
+                    } = await import("./sweetalert2.esm.all-BZxvatOx.js");
                     return {
                         default: e
                     }
@@ -14946,14 +14431,7 @@ const cp = Object.freeze(Object.defineProperty({
                         } = await it((async () => {
                                 const {
                                     logCache: e
-                                } = await (async () => {
-        try {
-          return await import("./useCacheState-DRIawrgD.js");
-        } catch (err) {
-          console.warn("Failed to load module useCacheState-DRIawrgD.js:", err);
-          return { default: () => null };
-        }
-      })();
+                                } = await import("./useCacheState-DRIawrgD.js");
                                 return {
                                     logCache: e
                                 }
