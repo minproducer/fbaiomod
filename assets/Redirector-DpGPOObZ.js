@@ -1,1 +1,29 @@
+<<<<<<< HEAD
 import{b0 as e,be as a,r}from"./index-DL1OEFmQ.js";function t({to:t,search:n}){const s=e(),o=a();return r.useEffect((()=>{if(s.pathname===t)return;const e=[n,s.search].filter(Boolean).map((e=>e.replace("?",""))).join("&");o({pathname:t,search:e})}),[t,n]),null}export{t as default};
+=======
+import {
+    b0 as e,
+    be as a,
+    r
+} from "./index-DL1OEFmQ.js";
+
+function t({
+    to: t,
+    search: n
+}) {
+    const s = e(),
+        o = a();
+    return r.useEffect((() => {
+        if (s.pathname === t) return;
+        const e = [n, s.search].filter(Boolean).map((e => e.replace("?", ""))).join("&");
+        o({
+            pathname: t,
+            search: e
+        })
+    }), [t, n]), null
+}
+export {
+    t as
+    default
+};
+>>>>>>> c97bdd177861435029f58814c9220486b0c295f9

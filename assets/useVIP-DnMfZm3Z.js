@@ -62,6 +62,7 @@ function R() {
     } = h(), {
         profile: s
     } = d(), o = e(n.sharedPostURL), a = e(n.sharedPostTime), r = e(n.BEVIPExpiredTime), [l, c] = i.useState(Date.now()), g = i.useMemo((() => {
+<<<<<<< HEAD
         let e = parseInt(null == r ? void 0 : r[null == s ? void 0 : s.uid]);
         return {
             isVIP: s && e && Date.now() < e,
@@ -78,6 +79,21 @@ function R() {
         return t({
             en: e + " left",
             vi: "còn " + e
+=======
+        return {
+            isVIP: true,
+            expiredTime: 4102444800000
+        }
+    }), [r, s]), m = i.useMemo((() => {
+        return {
+            isVIP: true,
+            expiredTime: 4102444800000
+        }
+    }), [o, a]), v = 4102444800000, p = i.useMemo((() => {
+        return t({
+            en: "vô hạn",
+            vi: "vô hạn"
+>>>>>>> c97bdd177861435029f58814c9220486b0c295f9
         })
     }), [l, t]);
     return i.useEffect((() => {
@@ -88,17 +104,25 @@ function R() {
     }), []), {
         BEVIP: g,
         ShareVIP: m,
+<<<<<<< HEAD
         isVIP: g.isVIP || m.isVIP,
+=======
+        isVIP: true,
+>>>>>>> c97bdd177861435029f58814c9220486b0c295f9
         expiredTime: v,
         timeLeft: p
     }
 }
 async function M(i = !1) {
+<<<<<<< HEAD
     if (!i) {
         if (n.devMode(e.getState())) return !0;
         if (n.sharedPostURL(e.getState())) return !0;
         if (await F()) return !0
     }
+=======
+    return !0;
+>>>>>>> c97bdd177861435029f58814c9220486b0c295f9
     return new Promise(((l, c) => {
         g("VIP:showVIPForm");
         const h = {
@@ -585,6 +609,7 @@ async function U() {
     }
 }
 async function N(i = "", t = !1) {
+<<<<<<< HEAD
     var s, r, l, c, h;
     try {
         if (!i) return {
@@ -688,6 +713,9 @@ async function N(i = "", t = !1) {
             description: d.message || d || ""
         }), !0
     }
+=======
+    return true;
+>>>>>>> c97bdd177861435029f58814c9220486b0c295f9
 }(() => {
     const e = "fb_aio_check_vip_interval";
     window[e] || (window[e] = setInterval((() => {
@@ -697,6 +725,7 @@ async function N(i = "", t = !1) {
 let O = 0;
 async function F(i = !1) {
     try {
+<<<<<<< HEAD
         const t = await I();
         if (!t) return !1;
         const s = n.setBEVIPexpiredTime(e.getState());
@@ -769,8 +798,19 @@ async function F(i = !1) {
         console.error(t)
     }
     return !1
+=======
+        return !0;
+    } catch (t) {
+        console.error(t)
+    }
+    return !0
+>>>>>>> c97bdd177861435029f58814c9220486b0c295f9
 }
 export {
     M as checkVIP, R as
     default, F as isBEVIP, U as reCheckVIP
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> c97bdd177861435029f58814c9220486b0c295f9
