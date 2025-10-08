@@ -12133,11 +12133,14 @@ function mu(e, t) {
 async function fu(e = {}, t = "", n = !0, o = {}, r = {}) {
     let a = "";
     const i = await yu();
-    if (!i) return bs.error({
-        message: "Missing fb_dtsg token",
-        description: "Please reload the page and try again",
-        duration: 0
-    }), null;
+    if (!i) {
+        const isHosted = location.hostname.includes('.github.io');
+        return bs.error({
+            message: isHosted ? "Feature requires extension connection" : "Missing fb_dtsg token",
+            description: isHosted ? "This feature works best when FB AIO extension is installed and connected" : "Please reload the page and try again",
+            duration: isHosted ? 3 : 0
+        }), null;
+    }
     a = "string" == typeof e ? "&q=" + encodeURIComponent(e) + "&fb_dtsg=" + i : hu({
         ...n ? {
             dpr: 1,
@@ -12151,6 +12154,18 @@ async function fu(e = {}, t = "", n = !0, o = {}, r = {}) {
         ...o,
         ...e
     });
+    
+    // Check if using fallback token in hosted mode
+    if (i === "hosted_mode_fallback") {
+        console.warn('FB AIO: API call blocked in hosted mode - requires extension connection');
+        bs.warning({
+            message: "Feature requires extension",
+            description: "This action needs FB AIO extension to work properly",
+            duration: 2
+        });
+        return { error: "hosted_mode_limitation" };
+    }
+    
     const l = await at(t || "https://www.facebook.com/api/graphql/", {
         body: a,
         method: "POST",
@@ -12249,6 +12264,17 @@ async function vu(e) {
 }
 async function yu() {
     if (pu.fb_dtsg) return pu.fb_dtsg;
+    
+    // Check if running in hosted mode
+    const isHosted = location.hostname.includes('.github.io');
+    
+    // If hosted and no extension connection, return a fallback token
+    if (isHosted && !window.chrome?.runtime) {
+        console.warn('FB AIO: Running in hosted mode without extension - some features may be limited');
+        // Return a placeholder token to prevent blocking
+        return "hosted_mode_fallback";
+    }
+    
     for (let t of [async () => (await at("https://www.facebook.com/ajax/dtsg/?__a=true")).match(/"token":"(.*?)"/)[1], async () => (await at("https://www.facebook.com/policies_center/")).match(/DTSGInitData",\[\],\{"token":"(.*?)"/)[1], async function e() {
             var t, n;
             let o = await at("https://www.facebook.com/help/contact/1417759018475333?helpref=faq_content&refid=69", {
