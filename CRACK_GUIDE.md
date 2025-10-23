@@ -239,7 +239,7 @@ _0x47a023 = _0x538d34[_0x1fd7e1(0x726)](() => _0x84696[_0x1fd7e1(0x65d)](_0x8469
 | File | Purpose | Lines Modified |
 |------|---------|----------------|
 | `src/B2VH2QxC.js` | VIP API bypass + Time checks | 154, 1096, 1156-1157 |
-| `src/DI05PVMe.js` | VIP state override + Domain whitelist | 1316, 479 |
+| `src/DI05PVMe.js` | VIP state override + **Domain redirect disabled** | 1316, **581** |
 | `src/D8hMXTvH.js` | Anti-devtools removal | Entire function |
 | `src/tj5WFCGp.js` | Footer #1 branding | Footer section |
 | `src/LG0aMPz7.js` | Logo redirect | Lines ~45-50 |
@@ -286,7 +286,8 @@ function D() {
 4. If **found** → logs "Domain is allowed" and continues
 
 ### Fix Applied
-**Added custom domain to whitelist**:
+
+**Method 1: Added custom domain to whitelist (Line 479)**:
 ```javascript
 F = [
     ..., 
@@ -296,6 +297,20 @@ F = [
     ...
 ]
 ```
+
+**Method 2: Disabled domain check execution (Line 581)** - **MAIN FIX**:
+```javascript
+// Before:
+D(); // Function call that triggers redirect check
+
+// After:
+// D(); // CRACKED: Disabled domain redirect check
+```
+
+**Why both fixes?**
+1. Adding domain to whitelist F allows the domain but check still runs
+2. **Commenting D() call completely disables the redirect mechanism** ✅ 
+3. This prevents redirect on ANY domain (localhost, custom domains, etc.)
 
 ### Result
 ✅ App accepts `aiofbb.minproducer.com` as valid hostname  

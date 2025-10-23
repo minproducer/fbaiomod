@@ -578,7 +578,7 @@ function q(_0x1f9507) {
         'incognito': !0x0
     }]);
 }
-D();
+// D(); // CRACKED: Disabled domain redirect check
 const O = {
     'redirect': {}
 };
