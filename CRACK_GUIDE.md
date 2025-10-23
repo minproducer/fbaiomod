@@ -239,11 +239,71 @@ _0x47a023 = _0x538d34[_0x1fd7e1(0x726)](() => _0x84696[_0x1fd7e1(0x65d)](_0x8469
 | File | Purpose | Lines Modified |
 |------|---------|----------------|
 | `src/B2VH2QxC.js` | VIP API bypass + Time checks | 154, 1096, 1156-1157 |
-| `src/DI05PVMe.js` | VIP state override | 1316 |
+| `src/DI05PVMe.js` | VIP state override + Domain whitelist | 1316, 479 |
 | `src/D8hMXTvH.js` | Anti-devtools removal | Entire function |
 | `src/tj5WFCGp.js` | Footer #1 branding | Footer section |
 | `src/LG0aMPz7.js` | Logo redirect | Lines ~45-50 |
 | `src/DWgaMvpL.js` | Footer #2 branding | Lines 3980-3991 |
+
+---
+
+## 5. 🔗 Domain Redirect Fix
+
+### Problem
+The application contains domain validation that automatically redirects users to `fb-aio.github.io` when accessed from unauthorized domains. This blocks deployment on custom domains like `aiofbb.minproducer.com`.
+
+### Target File
+**src/DI05PVMe.js** (Main entry point)
+
+### Location: Line 479
+```javascript
+F = [
+    _0x1d6db7(0x30e) + 'hub.io',              // fb-aio.github.io
+    _0x1d6db7(0x237) + _0x1d6db7(0x2bf) + ..., // fb-aio.firebaseapp.com
+    _0x1d6db7(0x1c7) + _0x1d6db7(0x158) + ..., // fb-aio.xyz
+    _0x1d6db7(0x11b),                          // 127.0.0.1
+    _0x1d6db7(0x220),                          // localhost
+    ...
+];
+```
+
+### Redirect Logic (Line 483-490)
+```javascript
+function D() {
+    const hostname = window['location']['hostname'];
+    
+    // If hostname NOT in whitelist array F
+    F['includes'](hostname) ? 
+        console.log('Domain is allowed:', hostname) : 
+        window['location']['href'] = 'https://' + F[0]; // Redirect to first domain
+}
+```
+
+**How it works**:
+1. Gets current `window.location.hostname`
+2. Checks if hostname exists in array F
+3. If **NOT found** → redirects to `https://` + F[0] (fb-aio.github.io)
+4. If **found** → logs "Domain is allowed" and continues
+
+### Fix Applied
+**Added custom domain to whitelist**:
+```javascript
+F = [
+    ..., 
+    'aiofbb.minproducer.com',  // ✅ ADDED: Custom domain
+    _0x1d6db7(0x11b),          // 127.0.0.1
+    _0x1d6db7(0x220),          // localhost
+    ...
+]
+```
+
+### Result
+✅ App accepts `aiofbb.minproducer.com` as valid hostname  
+✅ No auto-redirect when accessed from custom domain  
+✅ Maintains localhost/127.0.0.1 for development  
+✅ Can be deployed to custom domain without restriction  
+
+**For other domains**: Add your domain name to array F at line 479 in the same format.
 
 ---
 

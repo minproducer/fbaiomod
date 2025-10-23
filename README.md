@@ -8,13 +8,39 @@ All VIP features are now **FREE** and **UNLIMITED**!
 
 ---
 
-## 🚀 Features Unlocked
+## ✨ Features Unlocked
 
-✅ **VIP System Completely Bypassed** (4-layer protection removed)  
-✅ **Anti-Devtools Protection Disabled** (F12, Console, Right-click all working)  
-✅ **Permanent VIP Access** (No expiration, no payment needed)  
-✅ **All Premium Features Unlocked**  
-✅ **Custom Branding Applied**
+✅ **VIP Access** - Lifetime VIP until year 2100  
+✅ **Developer Tools** - Anti-devtools protection disabled  
+✅ **Custom Branding** - UI rebranded with aiofbb.minproducer.com  
+✅ **Custom Domain** - Deploy to aiofbb.minproducer.com without redirect  
+✅ **All Premium Features** - Full access to all VIP functionalities
+
+---
+
+## 📝 What Was Cracked?
+
+### 1️⃣ VIP System (4-Layer Protection)
+- ✅ API endpoint bypass
+- ✅ Time validation removal  
+- ✅ Expiration check bypass
+- ✅ State override to permanent VIP
+
+### 2️⃣ Anti-Devtools Protection
+- ✅ Disabled developer console blocking
+- ✅ Removed debugger traps
+
+### 3️⃣ UI Customization
+- ✅ Footer copyright text replaced
+- ✅ Logo redirect changed to minproducer.com
+- ✅ Custom branding applied
+
+### 4️⃣ Domain Restriction Removed
+- ✅ Added aiofbb.minproducer.com to domain whitelist
+- ✅ Removed auto-redirect to fb-aio.github.io
+- ✅ Can deploy to custom domain without restrictions
+
+---
 
 ---
 
